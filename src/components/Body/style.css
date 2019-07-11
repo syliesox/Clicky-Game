@@ -1,6 +1,9 @@
 .wrapper {
     justify-content: space-around;
     padding: 20px;
+    height: 100px;
     align-content: "flex-start";
     overflow: "auto";
+    color: white;
+    text-align: center;
 }
