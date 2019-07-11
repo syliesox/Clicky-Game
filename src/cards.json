@@ -1,4 +1,4 @@
-const characters = [
+[
     {
         "id": 1,
         "name": "Bugs Bunny",
