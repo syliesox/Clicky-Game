@@ -19,20 +19,35 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Clicky Game</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="/">Clicky Game!</a>
+          </li>
+          <li>You guessed incorrectly!</li>
+          <li>Score: 0 | Top Score: 0</li>
+        </ul>
+      </nav>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <header class="header">
+        <h1>Clicky Game</h1>
+        <h2>Click on an image to earn points, but don't click on any of the images more than once!</h2>
+      </header>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <main class="container">
+        <!-- This is where the images will render -->
+      </main>
+
+      <footer>
+
+      </footer>
+    </div>
+    
   </body>
 </html>

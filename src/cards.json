@@ -1,0 +1,92 @@
+const characters = [
+    {
+        "id": 1,
+        "name": "Bugs Bunny",
+        "image": "https://media.giphy.com/media/KXtq8oYQrYMIF9Esi7/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Road Runner",
+        "image": "https://media.giphy.com/media/LfT85xyPFiGrK/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Wile E Coyote",
+        "image": "https://media.giphy.com/media/135Bh75GkIjblm/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Sylvester",
+        "image": "https://media.giphy.com/media/2uwZ4xi75JhxZYeyQB/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "Tweety",
+        "image": "https://media.giphy.com/media/3oKIPh2NpOwOq44g9O/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "Taz",
+        "image": "https://media.giphy.com/media/26CaMOXjjDM3Xl2s8/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Porky Pig",
+        "image": "https://media.giphy.com/media/kNG2MKFNPrnWw/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name": "Daffy Duck",
+        "image": "https://media.giphy.com/media/8ZFkQEZd1xdBK/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name": "Elmer Fudd",
+        "image": "https://media.giphy.com/media/3oFzmpOB6IYecRY5eo/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name": "Michigan J Frog",
+        "image": "https://media.giphy.com/media/zyzJLgHguZlwQ/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name": "Pepe LePew",
+        "image": "https://media.giphy.com/media/RoJbe4ha8CTfO/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name": "Speedy Gonzales",
+        "image": "https://media.giphy.com/media/l49JY8n2jOsXYVXLq/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 13,
+        "name": "Yosemite Sam",
+        "image": "https://media.giphy.com/media/9w5ilhkms0OA0/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 14,
+        "name": "Marvin the Martian",
+        "image": "https://media.giphy.com/media/1hzYiUlsRPLa6KcqQb/giphy.gif",
+        "count": 0
+    },
+    {
+        "id": 15,
+        "name": "Foghorn Leghorn",
+        "image": "https://media.giphy.com/media/ewDzAL6PJKz60/giphy.gif",
+        "count": 0
+    }
+]
