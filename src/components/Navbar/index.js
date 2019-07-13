@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Navbar = (props) => (
-    <nav class="navbar">
+    <nav class="navbar shadow">
         <h4>Looney Tunes Clicky!</h4>
         <div class="score ml-auto d-flex">
             <h5 id="currentScore">Current Score: {props.currentScore}</h5> 
