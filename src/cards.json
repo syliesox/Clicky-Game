@@ -20,73 +20,61 @@
     {
         "id": 4,
         "name": "Sylvester",
-        "image": "./images/sylvester.gif",
-        "count": 0
+        "image": "./images/sylvester.gif"
     },
     {
         "id": 5,
         "name": "Tweety",
-        "image": "./images/tweety.gif",
-        "count": 0
+        "image": "./images/tweety.gif"
     },
     {
         "id": 6,
         "name": "Taz",
-        "image": "./images/taz.gif",
-        "count": 0
+        "image": "./images/taz.gif"
     },
     {
         "id": 7,
         "name": "Porky Pig",
-        "image": "./images/porky_pig.gif",
-        "count": 0
+        "image": "./images/porky_pig.gif"
     },
     {
         "id": 8,
         "name": "Daffy Duck",
-        "image": "./images/daffy_duck.gif",
-        "count": 0
+        "image": "./images/daffy_duck.gif"
     },
     {
         "id": 9,
         "name": "Elmer Fudd",
-        "image": "./images/elmer_fudd.gif",
-        "count": 0
+        "image": "./images/elmer_fudd.gif"
     },
     {
         "id": 10,
         "name": "Michigan J Frog",
-        "image": "./images/frog.gif",
-        "count": 0
+        "image": "./images/frog.gif"
     },
     {
         "id": 11,
         "name": "Pepe LePew",
-        "image": "./images/pepe.gif",
-        "count": 0
+        "image": "./images/pepe.gif"
     },
     {
         "id": 12,
         "name": "Speedy Gonzales",
-        "image": "./images/speedy.gif",
-        "count": 0
+        "image": "./images/speedy.gif"
     },
     {
         "id": 13,
         "name": "Yosemite Sam",
-        "image": "./images/sam.gif",
-        "count": 0
+        "image": "./images/sam.gif"
     },
     {
         "id": 14,
         "name": "Marvin the Martian",
-        "image": "./images/martian.gif",
-        "count": 0
+        "image": "./images/martian.gif"
     },
     {
         "id": 15,
         "name": "Foghorn Leghorn",
-        "image": "./images/foghorn.gif",
-        "count": 0
+        "image": "./images/foghorn.gif"
     }
 ]

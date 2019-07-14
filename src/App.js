@@ -6,55 +6,24 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import cards from "./cards.json";
 
+function randomizeCards(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 class App extends Component {
   state = {
-    cards,
-    clickedCards: [],
+    userSelect: '',
     currentScore: 0,
     topScore: 0
   };
 
-  imageClick = event => {
-    const currentCard = event.target.alt;
-    const cardClicked = this.state.clickedCards.indexOf(currentCard) > -1;
-
-    if (cardClicked) {
-      this.setState({
-        cards: this.state.cards.sort(function(a, b) {
-          return 0.5 - Math.random();
-        }),
-        clickedCards: [],
-        currentScore: 0
-      });
-        alert("Gave Over! Try again for a better score!")
-    } else {
-      this.setState({
-        cards: this.state.cards.sort(function(a, b) {
-          return 0.5 - Math.random();
-        }),
-          clickedCards: this.state.clickedCards.concat(
-            currentCard
-          ),
-          currentScore: this.state.currentScore + 1
-      }, 
-      () => {
-        if (this.state.currentScore === 12) {
-          alert("You win!");
-          this.setState({
-            cards: this.state.cards.sort(function(a, b) {
-              return 0.5 - Math.random();
-            }),
-            clickedCards: [],
-            currentScore: 0
-          });
-        }
-      }
-      );
-    }
-
-  };
-
   render() {
+    const shuffledCards = randomizeCards(cards);
+
     return (
       <div>
         <Navbar 
@@ -62,14 +31,38 @@ class App extends Component {
         />
         
           <Header />
-          <div className="wrapper">
-              {this.state.cards.map(cards => ( 
-                <Card 
-                  imageClick={this.imageClick}
-                  id={cards.id}
-                  key={cards.id}
-                  image={cards.image}
+          <div className="wrapper"  style={{marginBottom: 70}}>
+              {shuffledCards.map(card => ( 
+
+                <Card key={card.id}
+                  {...card}
+                  selectImage={(id) => {
+                    // Set current state for selected image Id
+                    this.setState({userSelect: id})
+                                                          
+                    // JS function for game play and updating user score
+                    this.setState((prevState) => {
+                      if (this.state.userSelect === prevState.userSelect) {
+                        return ({
+                          currentScore : 0,
+                          
+                        })
+                      } else {
+                        if (this.state.topScore <= this.state.currentScore) {
+                          return ({
+                            currentScore : this.state.currentScore + 1,
+                            topScore : this.state.topScore + 1
+                          })
+                        } else if (this.state.topScore >= this.state.currentScore) {
+                          return ({
+                            currentScore : this.state.userScore + 1
+                          })
+                        }
+                      }
+                    })
+                  }}
                 />
+
               ))}
           </div>
 
