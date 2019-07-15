@@ -9,11 +9,32 @@ let Card = (props) => (
                     alt={props.name}
                     src={require(`${props.image}`)}
                     onClick={() => {
-                        props.selectImage(props.id);
+                        props.clickCard(props.index);
                     }}
                 />
         </div>
     </div>
 );
+
+// Cards to add to friends.json later
+// ,
+// {
+//     "id": 13,
+//     "name": "Yosemite Sam",
+//     "image": "./images/sam.gif",
+//     "clicked": false
+// },
+// {
+//     "id": 14,
+//     "name": "Marvin the Martian",
+//     "image": "./images/martian.gif",
+//     "clicked": false
+// },
+// {
+//     "id": 15,
+//     "name": "Foghorn Leghorn",
+//     "image": "./images/foghorn.gif",
+//     "clicked": false
+// }
 
 export default Card;

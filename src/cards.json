@@ -3,78 +3,72 @@
         "id": 1,
         "name": "Bugs Bunny",
         "image": "./images/bugs_bunny.gif",
-        "count": 0
+        "clicked": false
     },
     {
         "id": 2,
         "name": "Road Runner",
         "image": "./images/road_runner.gif",
-        "count": 0
+        "clicked": false
     },
     {
         "id": 3,
         "name": "Wile E Coyote",
         "image": "./images/coyote.gif",
-        "count": 0
+        "clicked": false
     },
     {
         "id": 4,
         "name": "Sylvester",
-        "image": "./images/sylvester.gif"
+        "image": "./images/sylvester.gif",
+        "clicked": false
     },
     {
         "id": 5,
         "name": "Tweety",
-        "image": "./images/tweety.gif"
+        "image": "./images/tweety.gif",
+        "clicked": false
     },
     {
         "id": 6,
         "name": "Taz",
-        "image": "./images/taz.gif"
+        "image": "./images/taz.gif",
+        "clicked": false
     },
     {
         "id": 7,
         "name": "Porky Pig",
-        "image": "./images/porky_pig.gif"
+        "image": "./images/porky_pig.gif",
+        "clicked": false
     },
     {
         "id": 8,
         "name": "Daffy Duck",
-        "image": "./images/daffy_duck.gif"
+        "image": "./images/daffy_duck.gif",
+        "clicked": false
     },
     {
         "id": 9,
         "name": "Elmer Fudd",
-        "image": "./images/elmer_fudd.gif"
+        "image": "./images/elmer_fudd.gif",
+        "clicked": false
     },
     {
         "id": 10,
         "name": "Michigan J Frog",
-        "image": "./images/frog.gif"
+        "image": "./images/frog.gif",
+        "clicked": false
     },
     {
         "id": 11,
         "name": "Pepe LePew",
-        "image": "./images/pepe.gif"
+        "image": "./images/pepe.gif",
+        "clicked": false
     },
     {
         "id": 12,
         "name": "Speedy Gonzales",
-        "image": "./images/speedy.gif"
-    },
-    {
-        "id": 13,
-        "name": "Yosemite Sam",
-        "image": "./images/sam.gif"
-    },
-    {
-        "id": 14,
-        "name": "Marvin the Martian",
-        "image": "./images/martian.gif"
-    },
-    {
-        "id": 15,
-        "name": "Foghorn Leghorn",
-        "image": "./images/foghorn.gif"
+        "image": "./images/speedy.gif",
+        "clicked": false
     }
 ]
