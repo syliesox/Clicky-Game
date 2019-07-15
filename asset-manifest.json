@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.c76865b4.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.5d036d0d.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.5d036d0d.chunk.js.map",
+    "runtime~main.js": "/Clicky-Game/static/js/runtime~main.012bace8.js",
+    "runtime~main.js.map": "/Clicky-Game/static/js/runtime~main.012bace8.js.map",
+    "static/js/2.e8f3f846.chunk.js": "/Clicky-Game/static/js/2.e8f3f846.chunk.js",
+    "static/js/2.e8f3f846.chunk.js.map": "/Clicky-Game/static/js/2.e8f3f846.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.9facd9f5032dc25ee67802580eee4647.js": "/Clicky-Game/precache-manifest.9facd9f5032dc25ee67802580eee4647.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/main.c76865b4.chunk.css.map": "/Clicky-Game/static/css/main.c76865b4.chunk.css.map",
+    "static/media/bugs_bunny.gif": "/Clicky-Game/static/media/bugs_bunny.96d2904f.gif",
+    "static/media/coyote.gif": "/Clicky-Game/static/media/coyote.9027d84d.gif",
+    "static/media/daffy_duck.gif": "/Clicky-Game/static/media/daffy_duck.f71e8fa6.gif",
+    "static/media/elmer_fudd.gif": "/Clicky-Game/static/media/elmer_fudd.a817b335.gif",
+    "static/media/foghorn.gif": "/Clicky-Game/static/media/foghorn.70066f25.gif",
+    "static/media/frog.gif": "/Clicky-Game/static/media/frog.45baa6a7.gif",
+    "static/media/martian.gif": "/Clicky-Game/static/media/martian.d2b6dbab.gif",
+    "static/media/pepe.gif": "/Clicky-Game/static/media/pepe.451658dc.gif",
+    "static/media/porky_pig.gif": "/Clicky-Game/static/media/porky_pig.f336bf9d.gif",
+    "static/media/road_runner.gif": "/Clicky-Game/static/media/road_runner.7b4f1072.gif",
+    "static/media/sam.gif": "/Clicky-Game/static/media/sam.2e3135fc.gif",
+    "static/media/speedy.gif": "/Clicky-Game/static/media/speedy.46f33e1b.gif",
+    "static/media/sylvester.gif": "/Clicky-Game/static/media/sylvester.9637a2a0.gif",
+    "static/media/taz.gif": "/Clicky-Game/static/media/taz.7eadd7bc.gif",
+    "static/media/tweety.gif": "/Clicky-Game/static/media/tweety.2e6b773e.gif"
+  }
+}
